@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #2aa8ae;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hamburger {
+  position: relative;
+  cursor: pointer;
+}
+
+.bar {
+  position: relative;
+  display: block;
+  background: #fff;
+  margin-bottom: 20px;
+  width: 70px;
+  height: 5px;
+  border-radius: 10px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}
+
+.hamburger:hover {
+  opacity: 0.7;
+  transition: all 0.6s;
+}
+
+.one {
+  margin-bottom: 0;
+}
+
+.two {
+  visibility: hidden;
+  transition: all 0.2s;
+}
+
+.three {
+  margin-top: -30px;
+}
+
+.one-rotate {
+  transform: rotate(-135deg);
+}
+
+.three-rotate {
+  transform: rotate(135deg);
+}
+
+/*# sourceMappingURL=style.css.map */
